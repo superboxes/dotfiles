@@ -6,7 +6,6 @@ nitrogen --restore &
 dunst &
 picom -b &
 ~/.config/polybar/launch.sh &
-pavucontrol &
 wmname LG3D &
 
 
