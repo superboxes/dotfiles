@@ -115,8 +115,8 @@ XF86AudioMute
     pactl set-sink-mute 0 toggle
 
 # Music control
-XF86Audio{Next,Prev,Play,Stop}
-    mpc {next,prev,toggle,stop}
+XF86Audio{Next,Prev,Play}
+    playerctl {next,previous,play-pause}
 
 # Screenshot
 Print
